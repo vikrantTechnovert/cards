@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cards-container{
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
+    background-color: rgb(24, 20, 20);
+    height: 100%;
+}
+
+.cards-container .card{
+    background-color: rgb(32, 32, 32);
+    min-height: 310px;
+    border-radius: 15px;
+    border: 0.1px solid #222121;
+    border-top: 0.3px solid #383838;
+}
+
+img{
+    background-color: greenyellow;
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+    margin-top: 25%;
+    margin-left: 10px;
+}
+
+#ExtraProfiles{
+    background-color: black;
+    border-radius: 40px;
+    height: 40px;
+    width: 40px;
+    margin-top: 25%;
+    margin-left: 10px;
+    color: rgb(83, 83, 83);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+#Live{
+    height: 40px;
+    width: 70px;
+    background-color: rgb(83, 83, 83);
+    margin-top: 25%;
+    margin-left: 15%;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 26px;
+}
+
+#ColoredFooter{
+    background: linear-gradient(to right,  rgb(77, 77, 190) 28px,rgb(188, 52, 230), rgb(223, 34, 34) 77%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.cards-container .card .profile-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 8%;
+}
+
+.cards-container .card :hover{
+    cursor: pointer;
+    /* transition: .5s ease;
+    transform: scale(0.8);  */
+}
+
+.card-title{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    word-spacing: 10px;
+    color: rgb(218, 214, 214);
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.card-title .heading{
+    font-size: 28px;
+}
+
+.card-title i{
+    font-size: 24px;
+    color: transparent;
+    -webkit-text-stroke: 2px gray;
+}
+
+.card-title .sub-heading{
+    color: gray;
+    font-size: 20px;
+}
+
+#AddCard{
+    background-color: rgb(20, 20, 20);
+}
+
+#AddCard .card-body{
+    padding-top: 15vh;
+    padding-left: 45%;
+}
+
+#Plus{
+    font-size: 60px;
+    color: rgb(83, 83, 83);
+}
